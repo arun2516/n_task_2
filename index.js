@@ -99,7 +99,7 @@ server.get("/students-list",async(req,res)=>{
 
 // read mentor_list
 
-server.get("/students-list",async(req,res)=>{
+server.get("/mentors-list",async(req,res)=>{
     try{
         let client = new MongoClient(process.env.DB_URL);
         await client.connect();
